@@ -8,6 +8,7 @@ closeArrow.addEventListener("click", toggle);
 
 function toggle() {
     nav.classList.toggle("active");
+    container.classList.toggle("inactive");
 }
 
 container.addEventListener("click", close);
