@@ -12,13 +12,26 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-nav {
-    display: none;
-}
-
 .container {
     background-color: azure;
     width: 70%;
     height: 100vh;
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+nav {
+    display: none;
+    background-color: rgb(229, 192, 243);
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    right: 15%;
+    height: 100%;
+}
+
+.active {
+    display: block;
 }
