@@ -13,9 +13,7 @@ function toggle() {
 container.addEventListener("click", close);
 
 function close(event) {
-    console.log(event.target.classList);
     if (!event.target.classList.contains("material-icons-outlined")) {
-        console.log("remove");
         nav.classList.remove("active");
     }
 }
