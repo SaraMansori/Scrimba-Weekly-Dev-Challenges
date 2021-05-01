@@ -2,12 +2,23 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
+nav {
+    display: none;
+}
+
+.container {
+    background-color: azure;
+    width: 70%;
+    height: 100vh;
+    max-width: 800px;
+}
