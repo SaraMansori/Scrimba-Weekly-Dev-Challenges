@@ -1,5 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
+}
+
+body,
+.btn {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid red; */
+}
+
+.btn {
+    padding: 1em 2em;
+    margin: 0.8em;
+    min-width: 180px;
+    font-size: 1.2rem;
+
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-back {
+    border: 2px solid hotpink;
+    border-radius: 5px;
+    color: hotpink;
+}
+
+.btn-refresh {
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: orange;
+}
+
+.btn-next {
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    color: greenyellow;
 }
