@@ -94,8 +94,8 @@ body,
 }
 
 .shake {
-    animation-name: shake;
-    animation-duration: 0.6s;
+    animation-name: shake !important;
+    animation-duration: 0.6s !important;
     animation-iteration-count: infinite;
 }
 
