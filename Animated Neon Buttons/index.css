@@ -40,14 +40,55 @@ body,
     color: hotpink;
 }
 
+.btn-back:hover,
+.btn-back:focus {
+    animation-name: back-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes back-animation {
+    100% {
+        box-shadow: inset -9.5em 0 0 0 hotpink;
+        color: black;
+    }
+}
+
 .btn-refresh {
     border: 2px solid orange;
     border-radius: 5px;
     color: orange;
 }
 
+.btn-refresh:hover,
+.btn-refresh:focus {
+    animation-name: refresh-animation;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes refresh-animation {
+    100% {
+        box-shadow: 0 0 0.75em orange;
+    }
+}
+
 .btn-next {
     border: 2px solid greenyellow;
     border-radius: 5px;
     color: greenyellow;
+}
+
+.btn-next:hover,
+.btn-next:focus {
+    animation-name: next-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes next-animation {
+    100% {
+        box-shadow: inset 9.5em 0 0 0 greenyellow;
+        color: black;
+    }
 }
