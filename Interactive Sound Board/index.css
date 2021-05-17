@@ -7,3 +7,34 @@ body {
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: hotpink;
+}
+
+.container {
+    display: grid;
+    padding: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+    font-family: "Nova Mono", monospace;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.btn {
+    border: none;
+    background-color: seashell;
+    padding: 2em 2em;
+    font-size: 2em;
+    border-radius: 6%;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: skyblue;
+}
