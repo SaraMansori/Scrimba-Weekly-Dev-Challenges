@@ -2,3 +2,5 @@
 Collection of solved Weekly Scrimba Challenges 
 
 ✅ Dropdown Navigation Bar
+✅ Animated Neon Buttons
+✅ Interactive Sound Board
