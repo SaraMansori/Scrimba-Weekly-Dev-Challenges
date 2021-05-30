@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.garden {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    background: conic-gradient(
+        #99ffff 0deg 90deg,
+        #99ff99 90deg 270deg,
+        #99ffff 240deg 0deg
+    );
+}
+
+.fish {
+    position: absolute;
+    fill: darkblue;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.cat {
+    margin: 25% 35%;
+}
+
+.hungry {
+    animation-name: getHungry;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes getHungry {
+    // your code here;
+}
+
+.fed {
+    fill: black;
+}
