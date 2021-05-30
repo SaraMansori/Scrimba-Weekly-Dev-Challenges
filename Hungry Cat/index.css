@@ -42,7 +42,9 @@ body {
 }
 
 @keyframes getHungry {
-    // your code here;
+    to {
+        fill: red;
+    }
 }
 
 .fed {
