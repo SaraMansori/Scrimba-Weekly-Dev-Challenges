@@ -3,3 +3,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-img {
+    max-width: 100%;
+}
