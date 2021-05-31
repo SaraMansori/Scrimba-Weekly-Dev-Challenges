@@ -4,15 +4,104 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .card-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    background-color: #171717;
+    color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .movie-img {
     max-width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+.movie-info > * {
+    margin-bottom: 0.7em;
+    margin-left: 0.5em;
+}
+
+.btn-container,
+.info,
+.tags {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info > * {
+    margin-left: 0.5em;
+}
+
+.match-rating {
+    color: limegreen;
+    font-weight: bold;
+}
+
+.certification {
+    background-color: limegreen;
+    padding: 0.5em;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.btn-container {
+}
+
+button {
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+    filter: invert(1);
+    border-radius: 50%;
+    padding: 0.7em;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tags {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tags > * {
+    flex-basis: 20%;
+    margin-left: 0.5em;
+    color: grey;
+}
+
+.tags :nth-child(1) {
+    list-style-type: none;
 }
