@@ -5,3 +5,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf1ff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.shapes {
+    position: absolute;
+}
+
+.card.wrapper {
+    border-radius: 10px;
+    border: 1px solid #dae6ff;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: "karla", sans-serif;
+    box-shadow: 0.6px 0.6px 4px -1px rgba(43, 43, 43, 1);
+}
+
+.card.top-card {
+    background-color: rgb(218, 225, 255);
+    border-radius: 10px 10px 0px 0px;
+    color: #415b7c;
+    font-size: 17px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.top-card--course-title {
+    text-align: right;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+    padding: 0.8rem;
+}
+
+.card.bottom-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    height: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+img {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 40px;
+}
+
+.card.bottom-card--info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card.bottom-card.active {
+    height: 55%;
+    transition: 0.2s;
+}

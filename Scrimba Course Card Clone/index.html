@@ -1,8 +1,87 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla"
+            rel="stylesheet"
+        />
     </head>
     <body>
+        <div class="card wrapper">
+            <section class="card top-card">
+                <div class="shapes">
+                    <svg
+                        class="shape"
+                        style="
+                            width: 66%;
+                            left: 51%;
+                            top: 51%;
+                            transform: translate3d(-50%, -50%, 66px)
+                                rotate(0deg) scale(var(--hs)) scaleY(0.48);
+                            opacity: 0.2;
+                            --o: 0.2;
+                            --c: var(--lilac6);
+                        "
+                        width="100"
+                        viewBox="0 0 100 100"
+                        preserveAspectRatio="none"
+                        height="100"
+                    >
+                        <path
+                            d="M13.4722 14.9548C27.7804 -2.67845 49.7337 0.345336 67.4 8.41128C84.5927 16.261 100.585 31.1761 97.6499 53.388C94.6973 75.7326 75.1119 89.9688 55.8613 95.735C37.5404 101.223 18.5249 97.0492 9.47335 79.7998C-0.70101 60.4107 -1.5127 33.4221 13.4722 14.9548Z"
+                        ></path>
+                    </svg>
+                    <svg
+                        class="shape"
+                        style="
+                            width: 36%;
+                            left: 53%;
+                            top: 53%;
+                            transform: translate3d(-50%, -50%, 36px)
+                                rotate(-6deg) scale(var(--hs)) scaleY(0.54);
+                            opacity: 0.25;
+                            --o: 0.25;
+                            --c: var(--lilac5);
+                        "
+                        width="100"
+                        viewBox="0 0 100 100"
+                        preserveAspectRatio="none"
+                        height="100"
+                    >
+                        <path
+                            d="M13.4722 14.9548C27.7804 -2.67845 49.7337 0.345336 67.4 8.41128C84.5927 16.261 100.585 31.1761 97.6499 53.388C94.6973 75.7326 75.1119 89.9688 55.8613 95.735C37.5404 101.223 18.5249 97.0492 9.47335 79.7998C-0.70101 60.4107 -1.5127 33.4221 13.4722 14.9548Z"
+                        ></path>
+                    </svg>
+                </div>
+                <h1 class="card top-card--course-title">
+                    Learn Styled Components in React
+                </h1>
+            </section>
+            <section class="card bottom-card">
+                <section class="card bottom-card--info">
+                    <div class="card bottom-card--info-text">
+                        <p class="card bottom-card--description">
+                            18 lessons | 1 hour
+                        </p>
+                        <p class="card bottom-card--description">
+                            with <bold>Ania Kubow</bold>
+                        </p>
+                    </div>
+                    <div class="card bottom-card--info-img">
+                        <img
+                            src="https://scrimba.com/avatars/uid/uN32gmcm/256"
+                            alt="Ania Kubow picture"
+                        />
+                    </div>
+                </section>
+                <section class="card bottom-card--level">
+                    <p>Intermediate</p>
+                </section>
+            </section>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
