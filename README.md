@@ -7,4 +7,4 @@ Collection of solved Weekly Scrimba Challenges
 ✅ Interactive Sound Board \
 ✅ Hungry Cat Animated Game \
 ✅ Netflix Card Clone \
-✅ Tip Calculator \
+✅ Tip Calculator
