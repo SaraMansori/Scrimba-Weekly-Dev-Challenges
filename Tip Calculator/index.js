@@ -1,22 +1,27 @@
-let total = document.querySelector("#total").value;
-let billValue = document.querySelector("#bill_value");
-let tipValue = document.querySelector("#tip_value");
+let totalValue = document.querySelector("#total");
+const bill = document.querySelector("#bill_value");
+const tip = document.querySelector("#tip_value");
 
-function calculateTotal(billValue, tipValue) {
-    let bill = billValue.value;
-    let tip = tipValue.value;
-    let total = bill * tip;
-    return total;
+function calculateTotal(bill, tip) {
+    let billValue = parseFloat(bill.value);
+    let tipValue = parseFloat(tip.value);
+    let tipPercentage = billValue * (tipValue / 100);
+    let total = billValue + tipPercentage;
+    if (total > 0) {
+        return total;
+    } else {
+        return 0;
+    }
 }
 
 function changeTotal() {
-    total = calculateTotal(billValue, tipValue);
+    totalValue.innerHTML = `[$${calculateTotal(bill, tip)}]`;
 }
 
-billValue.oninput = function () {
+bill.oninput = function () {
     changeTotal();
 };
 
-tipValue.oninput = function () {
+tip.oninput = function () {
     changeTotal();
 };
