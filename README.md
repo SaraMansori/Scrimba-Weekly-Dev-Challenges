@@ -6,4 +6,5 @@ Collection of solved Weekly Scrimba Challenges
 ✅ Animated Neon Buttons \
 ✅ Interactive Sound Board \
 ✅ Hungry Cat Animated Game \
-✅ Netflix Card Clone
+✅ Netflix Card Clone \
+✅ Tip Calculator \
